@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <style>
+form {
+  border: 3px solid #f1f1f1;
+}
+ button {
+  background-color: rgb(8, 146, 181);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <img src=>
+                </td>
+                <td>
+                    <h3>Sign Up</h3>
+                    <form action="action_page.php" method="post" style="line-height:30px;" >
+                        <div class="container">
+                          <label for="uname"><b>Username</b></label>
+                          <input type="text" placeholder="Username" name="uname" required><br>
+                      
+                          <label for="email"><b>Adresă de email</b></label>
+                          <input type="text" placeholder="Email" name="email" required><br>
+
+                          <label for="psw"><b>Parolă</b></label>
+                          <input type="password" placeholder="Parolă" name="psw" required><br>
+                      
+                          <button type="submit">Login</button>
+                          <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me<br>
+                          </label>
+                          <span>
+                            <strong>Ai deja cont?</strong>&nbsp;
+                            <a href="LoginMedic.html" id="login">Log in</a>
+                          </span>
+                        </div>
+                      </form>
+                </td>
+            </tr>
+    </table>
+    </body>
+</html>
